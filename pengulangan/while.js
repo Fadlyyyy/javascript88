@@ -6,7 +6,7 @@
 //     ulang = confirm('lagi?');
 // }
 
-//  looping dihentikan oleh diri developer
+//  looping dihentikan oleh developer
 
 var nilaiAwal = 1;
 while(nilaiAwal <= 10) {

@@ -1,5 +1,6 @@
-var jmlhAngkot = 1;
-while (jmlhAngkot <= 10) {
-    console.log(' ANgkot No. ' + jmlhAngkot+ ' Beroperasi dengan baik');
-    jmlhAngkot++;
+var jmlhAngkot = 10;
+var noAngkot = 1;
+while (noAngkot <= 10) {
+    console.log(' ANgkot No. ' + noAngkot + ' Beroperasi dengan baik.');
+    noAngkot++;
 }
