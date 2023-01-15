@@ -5,4 +5,4 @@ if (angka % 2 == 0) {
     alert (angka + ' adalah bilangan GANJIL');
 } else {
     alert ('yang anda masukkan bukan angka!');
-}
+} 
