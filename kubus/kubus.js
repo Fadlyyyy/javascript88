@@ -36,11 +36,37 @@
 
 // atau 
 
-function tambah (a,b) {
-    return a + b;
+// function tambah (a,b) {
+//     return a + b;
+// }
+
+// var a = parseInt(prompt('Masukkan nilai 1 :'));
+// var b = parseInt(prompt('Masukkan nilai 2 :'));
+// var hasil = tambah (a,b);
+// console.log(hasil);
+
+// sebelum refactoring
+// function jumlahVolumeDuaKubus(a, b) {
+//     var volumeA;
+//     var VolumeB;
+//     var total;
+
+//     volumeA = a * a * a;
+//     VolumeB = b * b * b;
+
+//     total = volumeA + VolumeB;
+
+//     return total;
+// }
+
+// alert(jumlahVolumeDuaKubus(8, 3));
+
+
+
+// refactoring
+function jumlahVolumeDuaKubus(a, b) {
+    return a * a * a + b * b * b;
 }
 
-var a = parseInt(prompt('Masukkan nilai 1 :'));
-var b = parseInt(prompt('Masukkan nilai 2 :'));
-var hasil = tambah (a,b);
-console.log(hasil);
+alert(jumlahVolumeDuaKubus(8, 3));
+
