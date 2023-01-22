@@ -1,16 +1,15 @@
-var operasi1 = ' beroperasi dengan baik.';
-var operasi2 = ' sedang tidak beroperasi.';
-var operasi3 = ' sedang lembur.';
-var jumlahAngkot = 10;
-var angkot = 1;
+var noAngkot = 1;
+var jmlAngkot = 10;
+var angkotBeroperasi = 6;
 
-for (angkot; angkot <= jumlahAngkot ; angkot++) {
-    if (angkot <= 6) {
-        var aksi = operasi1;
-    } else if (angkot === 8) {
-        var aksi = operasi3;
+
+
+for (noAngkot; noAngkot <= jmlAngkot; noAngkot++) {
+    if (noAngkot <= angkotBeroperasi) {
+        console.log('Angkot No. ' + noAngkot + ' beroperasi dengan baik');
+    } else if (noAngkot === 8) {
+        console.log('Angkot No. ' + noAngkot + ' sedang lembur');
     } else {
-        var aksi = operasi2;
+        console.log('Angkot No. ' + noAngkot + ' sedang tidak beroperasi');
     }
-    console.log('Angkot No. ' + angkot + aksi);
 }
